@@ -29,6 +29,23 @@ const FlowerGarden = () => {
 
   return (
     <div className="flower-garden">
+      {/* Test flower - always visible */}
+      <div 
+        style={{
+          position: 'absolute',
+          left: '50px',
+          top: '50px',
+          width: '60px',
+          height: '60px',
+          background: 'red',
+          borderRadius: '50%',
+          zIndex: 1000,
+          border: '3px solid yellow'
+        }}
+      >
+        TEST
+      </div>
+      
       {flowers.map(flower => (
         <Flower
           key={flower.id}
