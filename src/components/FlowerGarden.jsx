@@ -10,6 +10,8 @@ const FlowerGarden = () => {
     { id: 5, x: 600, y: 350, color: 'pink', size: 'medium' },
   ]);
 
+  console.log('FlowerGarden rendering with', flowers.length, 'flowers');
+
   const addFlower = () => {
     const colors = ['pink', 'purple', 'yellow', 'blue', 'white'];
     const sizes = ['small', 'medium', 'large'];
