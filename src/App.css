@@ -21,7 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  background: linear-gradient(135deg, #ff00ff 0%, #ffff00 50%, #00ffff 100%);
+  background: linear-gradient(135deg, #87ceeb 0%, #98fb98 50%, #dda0dd 100%);
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -340,8 +340,8 @@ body {
 /* Flower structure */
 .flower-center {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
   background: #ffd700;
   border-radius: 50%;
   top: 50%;
@@ -371,35 +371,35 @@ body {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-/* Petal positions */
+/* Petal positions - pointing outward */
 .petal-1 {
   transform: translate(-50%, -50%) rotate(0deg) translateX(30px) rotate(0deg);
 }
 .petal-2 {
-  transform: translate(-50%, -50%) rotate(45deg) translateX(30px) rotate(-45deg);
+  transform: translate(-50%, -50%) rotate(45deg) translateX(30px) rotate(45deg);
 }
 .petal-3 {
-  transform: translate(-50%, -50%) rotate(90deg) translateX(30px) rotate(-90deg);
+  transform: translate(-50%, -50%) rotate(90deg) translateX(30px) rotate(90deg);
 }
 .petal-4 {
   transform: translate(-50%, -50%) rotate(135deg) translateX(30px)
-    rotate(-135deg);
+    rotate(135deg);
 }
 .petal-5 {
   transform: translate(-50%, -50%) rotate(180deg) translateX(30px)
-    rotate(-180deg);
+    rotate(180deg);
 }
 .petal-6 {
   transform: translate(-50%, -50%) rotate(225deg) translateX(30px)
-    rotate(-225deg);
+    rotate(225deg);
 }
 .petal-7 {
   transform: translate(-50%, -50%) rotate(270deg) translateX(30px)
-    rotate(-270deg);
+    rotate(270deg);
 }
 .petal-8 {
   transform: translate(-50%, -50%) rotate(315deg) translateX(30px)
-    rotate(-315deg);
+    rotate(315deg);
 }
 
 /* Flower colors */

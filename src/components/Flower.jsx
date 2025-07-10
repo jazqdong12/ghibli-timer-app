@@ -60,7 +60,7 @@ const Flower = ({ id, initialX, initialY, color, size }) => {
     touchAction: 'none'
   };
 
-  console.log('Flower rendering:', { color, size, position });
+
 
   return (
     <div
