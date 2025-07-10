@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Timer from './components/Timer'
 import Controls from './components/Controls'
+import FlowerGarden from './components/FlowerGarden'
 import './App.css'
 
 function App() {
@@ -58,6 +59,8 @@ function App() {
           <div className="cloud cloud-3"></div>
         </div>
       </div>
+      
+      <FlowerGarden />
       
       <div className="timer-container">
         <h1 className="app-title">Ghibli Timer</h1>
